@@ -4,7 +4,7 @@ FUNCTION NAME:
 
 DESCRIPTION:
 
-  Compute m emnory requirement of a matrix
+  Compute memnory requirement of a matrix
 
 INPUT:
 
