@@ -1,6 +1,6 @@
 
 % FUNCTION NAME:
-%   matrix_size_in_bytes
+%   ByteSize
 %
 % DESCRIPTION:
 %   Compute m emnory requirement of a matrix
