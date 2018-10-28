@@ -20,4 +20,5 @@ OUTPUT:
   size_in_mb, size_in_gb - size in mb and gb of matrix
   
 EXAMPLE USAGE:
+
 ByteSize([300000 196608 3], 0, 'uint16')
