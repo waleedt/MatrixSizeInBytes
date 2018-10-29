@@ -18,7 +18,7 @@
 %   10/27/2018 - waleedt
 %       * Initial implementation
 
- function [bytesize_gb,bytesize_mb] = bytesize(size_array,...
+ function [bytesize_gb,bytesize_mb,bytesize_kb] = bytesize(size_array,...
      iscomplex,dtype)
 
 if (iscomplex)
@@ -35,10 +35,11 @@ switch dtype
     case 'uint16'
         bytesize = 2 * num_elements;
     case 'uint8'
-        bytesize = 4 * num_elements;
+        bytesize = 1 * num_elements;
 end
 
 bytesize_gb = bytesize / (1024^3);
-bytesize_mb = bytesize / (1024^2); 
+bytesize_mb = bytesize / (1024^2);
+bytesize_kb = bytesize / (1024);
 
  end
