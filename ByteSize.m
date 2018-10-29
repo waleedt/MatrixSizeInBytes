@@ -12,7 +12,7 @@
 %   dtype - data type of matrix - 'single', 'double', 'uint16', 'uint8'
 %
 % OUTPUT:
-%   size_in_mb, size_in_gb - size in mb and gb of matrix
+%   [size_in_gb, size_in_mb, size_in_kb] - size in gb, mb, and kb of matrix
 %
 % REVISION HISTORY:
 %   10/27/2018 - waleedt
