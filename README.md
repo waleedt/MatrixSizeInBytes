@@ -4,7 +4,7 @@ FUNCTION NAME:
 
 DESCRIPTION:
 
-  Compute memnory requirement of a matrix
+  Computes memory requirement of a matrix
 
 INPUT:
 
@@ -17,8 +17,8 @@ INPUT:
 
 OUTPUT:
 
-  size_in_mb, size_in_gb - size in mb and gb of matrix
+  [size_in_gb, size_in_mb, size_in_kb] - size in gb and mb and kb of matrix
   
 EXAMPLE USAGE:
 
-ByteSize([300000 196608 3], 0, 'uint16')
+>> ByteSize([300000 196608 3], 0, 'uint16')
